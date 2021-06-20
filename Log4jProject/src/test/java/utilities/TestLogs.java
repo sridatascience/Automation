@@ -19,6 +19,7 @@ public class TestLogs {
 		PropertyConfigurator.configure("./src/test/resources/properties/log4j.properties");
 		
 		log.info("This is the information log");
+		log.info("This is the first github code checked in");
 		
 		log.error("Here the error logs will be printed");
 
